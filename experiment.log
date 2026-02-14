@@ -1,0 +1,77 @@
+Starting experiment script...
+C:\Users\yyz\Documents\worksfiles\Lib\site-packages\pandas\core\computation\expressions.py:22: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+C:\Users\yyz\Documents\worksfiles\Lib\site-packages\pandas\core\arrays\masked.py:56: UserWarning: Pandas requires version '1.4.2' or newer of 'bottleneck' (version '1.4.0' currently installed).
+  from pandas.core import (
+(CVXPY) Feb 14 05:53:33 PM: Encountered unexpected exception importing solver CVXOPT:
+ImportError('DLL load failed while importing base: 找不到指定的模块。')
+(CVXPY) Feb 14 05:53:33 PM: Encountered unexpected exception importing solver GLPK:
+ImportError('DLL load failed while importing base: 找不到指定的模块。')
+(CVXPY) Feb 14 05:53:33 PM: Encountered unexpected exception importing solver GLPK_MI:
+ImportError('DLL load failed while importing base: 找不到指定的模块。')
+(CVXPY) Feb 14 05:53:33 PM: Encountered unexpected exception importing solver SCS:
+ImportError('DLL load failed while importing _scs_direct: 找不到指定的模块。')
+Imports successful.
+Loading data...
+Data loaded: 1255 days, 50 assets
+Running backtest for EqualWeight...
+Processed day 200/1255
+Processed day 300/1255
+Processed day 400/1255
+Processed day 500/1255
+Processed day 600/1255
+Processed day 700/1255
+Processed day 800/1255
+Processed day 900/1255
+Processed day 1000/1255
+Processed day 1100/1255
+Processed day 1200/1255
+Finished EqualWeight: {'Strategy': 'EqualWeight', 'Annual Return': 0.13376376716388078, 'Sharpe Ratio': 0.8367672090178445, 'Max Drawdown': -0.24964573612552707}
+Running backtest for MinVariance...
+Processed day 200/1255
+Processed day 300/1255
+Processed day 400/1255
+Processed day 500/1255
+Processed day 600/1255
+Processed day 700/1255
+Processed day 800/1255
+Processed day 900/1255
+Processed day 1000/1255
+Processed day 1100/1255
+Processed day 1200/1255
+Finished MinVariance: {'Strategy': 'MinVariance', 'Annual Return': 0.05274580170173191, 'Sharpe Ratio': 0.43571149353193545, 'Max Drawdown': -0.21890411288243483}
+Running backtest for Momentum...
+Processed day 200/1255
+Processed day 300/1255
+Processed day 400/1255
+Processed day 500/1255
+Processed day 600/1255
+Processed day 700/1255
+Processed day 800/1255
+Processed day 900/1255
+Processed day 1000/1255
+Processed day 1100/1255
+Processed day 1200/1255
+Finished Momentum: {'Strategy': 'Momentum', 'Annual Return': 0.17244667640996855, 'Sharpe Ratio': 0.9222116352952676, 'Max Drawdown': -0.2953713317602331}
+Running backtest for AGESH...
+Processed day 200/1255
+Processed day 300/1255
+Processed day 400/1255
+Processed day 500/1255
+Processed day 600/1255
+Processed day 700/1255
+Processed day 800/1255
+Processed day 900/1255
+Processed day 1000/1255
+Processed day 1100/1255
+Processed day 1200/1255
+Finished AGESH: {'Strategy': 'AGESH', 'Annual Return': 0.2534523062823673, 'Sharpe Ratio': 0.8881677042356019, 'Max Drawdown': -0.3862872754184961}
+
+--- Performance Results ---
+      Strategy  Annual Return  Sharpe Ratio  Max Drawdown
+0  EqualWeight       0.133764      0.836767     -0.249646
+1  MinVariance       0.052746      0.435711     -0.218904
+2     Momentum       0.172447      0.922212     -0.295371
+3        AGESH       0.253452      0.888168     -0.386287
+Plot saved to equity_curves.png
+Script completed.
