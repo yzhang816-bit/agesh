@@ -26,10 +26,6 @@ AGESH integrates graph theory with robust statistics to solve the "Markowitz Eni
 ### Data
 - **`sp500_raw_data.csv`**: Historical return data for 50 S&P 500 assets (2020-2025). Format: `Date, Symbol, Return`.
 
-### Manuscript
-- **`v4.tex`**: The latest version of the research paper (LaTeX source).
-- **`v3.tex`**: Previous version of the manuscript.
-
 ### Outputs
 - **`experiment_results.csv`**: Performance metrics (Annual Return, Sharpe Ratio, Max Drawdown) from the latest run.
 - **`equity_curves.png`**: Cumulative return plots comparing AGESH with benchmarks.
