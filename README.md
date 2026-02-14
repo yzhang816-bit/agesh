@@ -19,7 +19,6 @@ AGESH integrates graph theory with robust statistics to solve the "Markowitz Eni
   - `AGESH`: The main strategy class implementing the algorithm.
   - Benchmarks: `EqualWeight`, `MinVariance`, `Momentum`.
   - Backtesting engine to evaluate performance.
-- **`remove_blue.py`**: A utility script used to clean `\textcolor{blue}{...}` tags from the LaTeX manuscript.
 - **`inspect_data.py`**: A helper script to quickly inspect the raw CSV data (symbols, date range).
 - **`test_simple.py`**: Simple test script for verification.
 
